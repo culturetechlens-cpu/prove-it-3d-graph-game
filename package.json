@@ -1,0 +1,8 @@
+{
+  "name": "prove-it-3d-graph-game",
+  "version": "0.1.0",
+  "description": "Prove It! — The CultureTechLens Game. An Afro-American game in a Three.js 3D knowledge graph.",
+  "type": "module",
+  "scripts": { "test": "node test-game.mjs" },
+  "dependencies": { "three": "^0.187.0" }
+}

@@ -1,0 +1,345 @@
+{
+  "cards": [
+    {
+      "answer": "MYTH",
+      "claim": "Dr. Shirley Ann Jackson invented caller ID, touch-tone phones, and fiber optics.",
+      "id": "jackson",
+      "name": "Shirley Ann Jackson",
+      "receipt": "First Black woman to earn a physics PhD from MIT; former NRC chair; National Medal of Science honoree. She did not invent caller ID, touch-tone phones, or fiber optics — the honors are hers, the inventions are not.",
+      "sourceLine": "CTL-DR-TECH-001, red-team verdicts",
+      "verdict": "FALSE"
+    },
+    {
+      "answer": "RECORD",
+      "claim": "Lonnie Johnson, a NASA engineer, invented the Super Soaker.",
+      "id": "johnson",
+      "name": "Lonnie Johnson",
+      "receipt": "U.S. Patent 4,591,071 (1986). The control case: the method confirms true stories too.",
+      "sourceLine": "CTL-DR-TECH-001, red-team §2 — U.S. Patent 4,591,071 (1986)",
+      "verdict": "CONFIRMED"
+    },
+    {
+      "answer": "MYTH",
+      "claim": "Garrett Morgan invented the traffic light.",
+      "id": "morgan-traffic",
+      "name": "Garrett Morgan — Traffic Signal",
+      "receipt": "Morgan patented a 3-position T-signal, U.S. Patent 1,475,024 (1923). Traffic signals predated him (Lester Wire, 1912).",
+      "sourceLine": "CTL-DR-TECH-001 — U.S. Patent 1,475,024 (1923)",
+      "verdict": "EXAGGERATED"
+    },
+    {
+      "answer": "MYTH",
+      "claim": "George Washington Carver invented peanut butter.",
+      "id": "carver",
+      "name": "George Washington Carver",
+      "receipt": "Carver developed peanut products extensively. Peanut butter predates him; he held no patent for it.",
+      "sourceLine": "CTL-DR-TECH-001, red-team verdicts",
+      "verdict": "FALSE"
+    },
+    {
+      "answer": "MYTH",
+      "claim": "Philip Emeagwali invented the Internet.",
+      "id": "emeagwali",
+      "name": "Philip Emeagwali",
+      "receipt": "Real honor: 1989 Gordon Bell Prize for work on the CM-2 supercomputer. The 'father of the Internet' claim is contradicted by Gordon Bell himself.",
+      "sourceLine": "CTL-DR-TECH-001, red-team verdicts",
+      "verdict": "FALSE"
+    },
+    {
+      "answer": "BONUS",
+      "claim": "'The real McCoy' comes from Elijah McCoy — buyers demanded the genuine article.",
+      "id": "mccoy",
+      "name": "Elijah McCoy",
+      "receipt": "McCoy's 50+ patents are real (lubricator, U.S. Patent 129,843, 1872). The phrase's origin has no evidence either way — so nobody wins this claim. Best-sourced argument wins the bonus.",
+      "sourceLine": "CTL-DR-TECH-001 — U.S. Patent 129,843 (1872)",
+      "verdict": "UNVERIFIABLE"
+    },
+    {
+      "answer": "MYTH",
+      "claim": "Garrett Morgan invented the gas mask.",
+      "id": "morgan-hood",
+      "name": "Garrett Morgan — Safety Hood",
+      "receipt": "Morgan patented a safety hood, U.S. Patent 1,113,675 (1914). Breathing apparatus predated him (Haslett, 1849).",
+      "sourceLine": "CTL-DR-TECH-001 — U.S. Patent 1,113,675 (1914)",
+      "verdict": "EXAGGERATED"
+    },
+    {
+      "answer": "MYTH",
+      "claim": "Lewis Latimer invented the light bulb's carbon filament.",
+      "id": "latimer",
+      "name": "Lewis Latimer",
+      "receipt": "Latimer patented a carbon-manufacturing process, U.S. Patent 252,386 (1882). Edison's team and Swan precede him on the filament.",
+      "sourceLine": "CTL-DR-TECH-001 — U.S. Patent 252,386 (1882)",
+      "verdict": "EXAGGERATED"
+    },
+    {
+      "answer": "MYTH",
+      "claim": "Madam C.J. Walker invented the hot comb.",
+      "id": "walker",
+      "name": "Madam C.J. Walker",
+      "receipt": "The hot comb predates her. Her documented record is bigger: entrepreneur, innovator, and builder of a hair-care empire.",
+      "sourceLine": "CTL-DR-TECH-001, red-team + role audit",
+      "verdict": "FALSE"
+    },
+    {
+      "answer": "MYTH",
+      "claim": "Benjamin Banneker built the first American clock — he invented it.",
+      "id": "banneker",
+      "name": "Benjamin Banneker",
+      "receipt": "Banneker built a striking clock c. 1753, documented via Thomas Jefferson. The 'first in America' claim is unprovable.",
+      "sourceLine": "CTL-DR-TECH-001, red-team verdicts",
+      "verdict": "EXAGGERATED"
+    },
+    {
+      "answer": "MYTH",
+      "claim": "Otis Boykin invented the pacemaker.",
+      "id": "boykin",
+      "name": "Otis Boykin",
+      "receipt": "Boykin's precision resistors, U.S. Patent 2,972,726 (1961), were used in pacemakers. He did not invent the pacemaker.",
+      "sourceLine": "CTL-DR-TECH-001 — U.S. Patent 2,972,726 (1961)",
+      "verdict": "EXAGGERATED"
+    },
+    {
+      "answer": "MYTH",
+      "claim": "Granville Woods, 'the Black Edison,' invented the third rail and dozens more.",
+      "id": "woods",
+      "name": "Granville Woods",
+      "receipt": "Woods held dozens of real railway-telegraphy patents. Some attributions on circulating lists are inflated — the verdict corrects the list, not the man.",
+      "sourceLine": "CTL-DR-TECH-001, red-team verdicts",
+      "verdict": "EXAGGERATED"
+    },
+    {
+      "answer": "MYTH",
+      "claim": "Henry Sampson invented the cell phone.",
+      "id": "sampson",
+      "name": "Henry Sampson",
+      "receipt": "Sampson himself denied it while alive. The claim traces to a circular citation web — and his record carries his own denial.",
+      "sourceLine": "CTL-DR-TECH-001, red-team challenge pass",
+      "verdict": "MYTH",
+      "verdictNote": "No verdict word was published for this case in CTL-DR-TECH-001's 12-case table; the pilot deck prints only 'MYTH.' The stamp therefore shows MYTH, never FALSE."
+    },
+    {
+      "id": "whitecity-1905",
+      "type": "photo",
+      "round": "Photo Card",
+      "name": "White City — Construction, c. 1905",
+      "claim": "What's being built here — and on what street?",
+      "options": [
+        "White City amusement park, 63rd Street",
+        "The Trianon Ballroom",
+        "A Sears store on 63rd Street"
+      ],
+      "answer": "White City amusement park, 63rd Street",
+      "verdict": "PUBLIC DOMAIN — CLEARED",
+      "receipt": "The entrance of White City amusement park, on 63rd Street, photographed under construction c. 1905. Photo: Chicago Daily News, Public Domain, via Wikimedia Commons. Register CTL-MEDUSA-CHI-000001-001, held CLEARED in the Cited Photo Archive.",
+      "sourceLine": "CTL-DR-PLACE-001 / Cited Photo Archive record, 2026-10-15",
+      "sourceUrl": "https://culturetechlens.com/research/63rd-street/"
+    },
+    {
+      "id": "whitecity-1916",
+      "type": "photo",
+      "round": "Photo Card",
+      "name": "White City at Night, 1916",
+      "claim": "Same place as the construction card — eleven years later. What is it, and what year?",
+      "options": [
+        "White City at night, 1916",
+        "White City at night, 1905",
+        "The Trianon Ballroom, 1924"
+      ],
+      "answer": "White City at night, 1916",
+      "verdict": "PUBLIC DOMAIN — CLEARED",
+      "receipt": "White City at night, 1916 — the built park in operation, paired against the c. 1905 construction shot: two evidence cards, one entity, a decade apart. Photo: Chicago Daily News, Public Domain. Register CTL-MEDUSA-CHI-000001-002, CLEARED.",
+      "sourceLine": "CTL-DR-PLACE-001 / Cited Photo Archive record, 2026-10-15",
+      "sourceUrl": "https://culturetechlens.com/research/63rd-street/"
+    },
+    {
+      "id": "trianon-1924",
+      "type": "photo",
+      "round": "Photo Card",
+      "name": "The Trianon Ballroom, 1924",
+      "claim": "Name this room.",
+      "options": [
+        "The Trianon Ballroom",
+        "The White City entrance",
+        "A 63rd Street jazz club"
+      ],
+      "answer": "The Trianon Ballroom",
+      "verdict": "PUBLIC DOMAIN — CLEARED",
+      "receipt": "The Trianon Ballroom, as its 1924 postcard sold it. Photo: postcard, publisher unknown, Public Domain. Register CTL-MEDUSA-CHI-000001-003, CLEARED. Honest limit, as published: the evidence card does not state a street address for the Trianon, so the game does not claim one.",
+      "sourceLine": "CTL-DR-PLACE-001 / Cited Photo Archive record, 2026-10-15",
+      "sourceUrl": "https://culturetechlens.com/research/63rd-street/"
+    },
+    {
+      "id": "bus-1973",
+      "type": "photo",
+      "round": "Photo Card",
+      "name": "Bus Riders on 63rd Street, 1973",
+      "claim": "Which street — and which year?",
+      "options": [
+        "63rd Street, 1973",
+        "63rd Street, 1916",
+        "State Street, 1973"
+      ],
+      "answer": "63rd Street, 1973",
+      "verdict": "PUBLIC DOMAIN",
+      "receipt": "Riders using bus transportation on 63rd Street, 1973, photographed by John H. White for the U.S. EPA DOCUMERICA project. Photo: Public Domain, via National Archives / Wikimedia Commons. No register ID is published on this record — cited by archive title and record date, as published.",
+      "sourceLine": "CTL-DR-PLACE-001 / Cited Photo Archive record, 2026-10-14",
+      "sourceUrl": "https://culturetechlens.com/research/63rd-street/"
+    },
+    {
+      "id": "thoroughfare-1973",
+      "type": "photo",
+      "round": "Photo Card",
+      "name": "63rd Street, July 1973",
+      "claim": "Same street, same year as the bus card. What can this photo actually prove?",
+      "options": [
+        "The street's documented state in July 1973",
+        "Why the street changed",
+        "That the golden-age story is verified"
+      ],
+      "answer": "The street's documented state in July 1973",
+      "verdict": "PUBLIC DOMAIN — CLEARED",
+      "receipt": "The photo documents the street in July 1973. Why it changed is a separate claim, graded separately — and parts of that story are not yet verified (see the Story Check cards). Photo: John H. White, EPA DOCUMERICA, National Archives, Public Domain. Register CTL-MEDUSA-CHI-000001-005, CLEARED.",
+      "sourceLine": "CTL-DR-PLACE-001 / Cited Photo Archive record, 2026-10-15",
+      "sourceUrl": "https://culturetechlens.com/research/63rd-street/"
+    },
+    {
+      "id": "white-camera",
+      "type": "photo",
+      "round": "Photo Card",
+      "name": "Whose Camera? — 63rd Street, 1973",
+      "claim": "You've seen his street all night. Whose camera is this?",
+      "options": [
+        "John H. White",
+        "The Chicago Daily News",
+        "An unknown postcard publisher"
+      ],
+      "answer": "John H. White",
+      "verdict": "PUBLIC DOMAIN",
+      "receipt": "John H. White — Blacks using bus transportation on 63rd Street, Chicago, 1973, for U.S. EPA DOCUMERICA. Photo: Public Domain, via Wikimedia Commons. No register ID is published on this record — cited by archive title and record date, as published.",
+      "sourceLine": "CTL-DR-PLACE-001 / Cited Photo Archive record, 2026-10-15",
+      "sourceUrl": "https://culturetechlens.com/research/63rd-street/"
+    },
+    {
+      "id": "golden-age",
+      "type": "bonus",
+      "round": "Story Check",
+      "name": "Story Check — The Golden Age",
+      "claim": "Everybody knows it: 63rd Street's golden age made it Chicago's second-busiest commercial district. Settled fact — Myth or Record?",
+      "answer": "BONUS",
+      "verdict": "NOT YET VERIFIED",
+      "receipt": "The 63rd Street dossier itself flags this one: the commercial golden-age narrative rests on credible but single or conflicting sources — plausible and widely repeated, not yet verified. The pilot kit marks the exact per-claim grade TO MINE from the full package, so this card plays as a bonus only, never as a settled answer.",
+      "sourceLine": "CTL-DR-PLACE-001, dossier framing as published",
+      "sourceUrl": "https://culturetechlens.com/research/63rd-street/"
+    },
+    {
+      "id": "sears-date",
+      "type": "bonus",
+      "round": "Story Check",
+      "name": "Story Check — The Sears Date",
+      "claim": "The Sears on 63rd Street opened in 1929. Everybody agrees on the date — Myth or Record?",
+      "answer": "BONUS",
+      "verdict": "DISPUTED",
+      "receipt": "The dossier names this anchor date — Sears, 1929 vs. 1934 — as resting on conflicting sources. A disputed date is played as disputed: bonus round, best-sourced argument wins, nobody settles it by voting.",
+      "sourceLine": "CTL-DR-PLACE-001, dossier framing as published",
+      "sourceUrl": "https://culturetechlens.com/research/63rd-street/"
+    }
+  ],
+  "doi": "10.5281/zenodo.23173961",
+  "links": [
+    [
+      "jackson",
+      "johnson"
+    ],
+    [
+      "johnson",
+      "sampson"
+    ],
+    [
+      "morgan-traffic",
+      "morgan-hood"
+    ],
+    [
+      "morgan-traffic",
+      "woods"
+    ],
+    [
+      "latimer",
+      "woods"
+    ],
+    [
+      "latimer",
+      "jackson"
+    ],
+    [
+      "carver",
+      "banneker"
+    ],
+    [
+      "emeagwali",
+      "johnson"
+    ],
+    [
+      "mccoy",
+      "woods"
+    ],
+    [
+      "walker",
+      "carver"
+    ],
+    [
+      "boykin",
+      "johnson"
+    ],
+    [
+      "banneker",
+      "latimer"
+    ],
+    [
+      "sampson",
+      "emeagwali"
+    ],
+    [
+      "mccoy",
+      "morgan-hood"
+    ],
+    [
+      "whitecity-1905",
+      "whitecity-1916"
+    ],
+    [
+      "whitecity-1916",
+      "trianon-1924"
+    ],
+    [
+      "bus-1973",
+      "thoroughfare-1973"
+    ],
+    [
+      "bus-1973",
+      "white-camera"
+    ],
+    [
+      "thoroughfare-1973",
+      "golden-age"
+    ],
+    [
+      "golden-age",
+      "sears-date"
+    ],
+    [
+      "trianon-1924",
+      "golden-age"
+    ]
+  ],
+  "snapshotNote": "21 cards: 13 from CTL-DR-TECH-001 + 8 from CTL-DR-PLACE-001, exactly as published in the Prove It! pilot kit, 2026-11-14 (8 added 2026-11-15). Grades/verdicts/statuses never upgraded.",
+  "source": "CTL-DR-TECH-001 — Black Technology, CultureTechLens",
+  "sourceUrl": "https://culturetechlens.com/research/black-technology/",
+  "linksNote": "These links are game-layout connectors chosen for navigation/visual grouping. They are NOT CultureTechLens graph relationships and must not be cited as such.",
+  "additionalSource": {
+    "source": "CTL-DR-PLACE-001 — 63rd Street, CultureTechLens",
+    "sourceUrl": "https://culturetechlens.com/research/63rd-street/",
+    "doi": "10.5281/zenodo.23353793",
+    "note": "8 cards added 2026-11-15 at William's direction: the 6 fully sourced Photo Cards (P-01 to P-06, all Public Domain with published rights lines) plus the 2 Story Check narratives, played only as bonus cards using the dossier's own published framing (not yet verified / conflicting sources) — their per-claim grades remain TO MINE in the pilot kit and no grade was invented here."
+  }
+}
