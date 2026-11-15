@@ -82,3 +82,11 @@ npm test   # verifies 13 cards, 14 links, game.js ↔ cards.json sync, and scori
 **Suggested GitHub topics** (set via the repo's About gear — the API route used for pushes cannot set topics): `threejs`, `knowledge-graph`, `black-history`, `african-american-history`, `trivia-game`, `educational-game`, `culturetechlens`, `medusa-archive`, `chicago-history`, `media-literacy`.
 
 The live page carries matching meta keywords, Open Graph / Twitter cards, a canonical URL, and schema.org JSON-LD (`VideoGame` + `FAQPage`) so search engines and answer engines (AEO/GEO) can quote the game accurately: what it is, how to play, the evidence grades, what CTL-MEDUSA is, and who the Patent Edition inventors are. A visible "About Prove It! — FAQ & card index" panel in the page carries the same answers as readable text, and `robots.txt` + `sitemap.xml` are published at the site root.
+
+## License
+
+**Code: MIT.** The game code in this repository is licensed under the MIT License (see `LICENSE`), © 2026 CultureTechLens NFP.
+
+**Content: © CultureTechLens NFP, all rights reserved.** The MIT license covers code only. The game content — card text, claims, verdicts, evidence grades, and the underlying research (CTL-DR-TECH-001 *Black Technology*, CTL-DR-PLACE-001 *63rd Street*, and the CTL-MEDUSA Cited Photo Archive register) — and the CultureTechLens name and Global Emblem branding are **not** MIT-licensed and remain © CultureTechLens NFP. Cite the research via its published DOIs; do not reuse the content or branding without permission.
+
+**Third-party:** Three.js (vendored in `vendor/`) is MIT-licensed by the Three.js authors; see `vendor/THREE-LICENSE.txt`. Photographs referenced by Photo Cards are Public Domain and are linked from the Cited Photo Archive, not redistributed here.
