@@ -74,3 +74,11 @@ All 21 cards come **only** from published CultureTechLens packages — no facts 
 npm install
 npm test   # verifies 13 cards, 14 links, game.js ↔ cards.json sync, and scoring
 ```
+
+## Keywords & discoverability (AEO · SEO · GEO)
+
+**Keywords:** Prove It!, CultureTechLens, Black history game, African American trivia, Black inventors, knowledge graph game, Three.js 3D graph, Myth or Record?, evidence-graded trivia, Cited Photo Archive, CTL-MEDUSA, Medusa photo archive, 63rd Street Chicago, White City amusement park, Trianon Ballroom, John H. White photographer, Black technology, U.S. patents, Lonnie Johnson Super Soaker, Garrett Morgan, Madam C.J. Walker, Shirley Ann Jackson, African diaspora, media literacy, Chicago Black history.
+
+**Suggested GitHub topics** (set via the repo's About gear — the API route used for pushes cannot set topics): `threejs`, `knowledge-graph`, `black-history`, `african-american-history`, `trivia-game`, `educational-game`, `culturetechlens`, `medusa-archive`, `chicago-history`, `media-literacy`.
+
+The live page carries matching meta keywords, Open Graph / Twitter cards, a canonical URL, and schema.org JSON-LD (`VideoGame` + `FAQPage`) so search engines and answer engines (AEO/GEO) can quote the game accurately: what it is, how to play, the evidence grades, what CTL-MEDUSA is, and who the Patent Edition inventors are. A visible "About Prove It! — FAQ & card index" panel in the page carries the same answers as readable text, and `robots.txt` + `sitemap.xml` are published at the site root.

@@ -7,6 +7,31 @@
 <meta name="description" content="An Afro-American / African diaspora game in a 3D knowledge graph. Don't just know it. Prove it. Every claim graded, every source named.">
 <meta property="og:title" content="Prove It! — The CultureTechLens Game">
 <meta property="og:description" content="Play Myth or Record? inside the CultureTechLens 3D graph. Branding: Global Emblem globe, Ink / Paper / Gold / Red.">
+<meta name="keywords" content="Prove It!, CultureTechLens, Black history game, African American trivia, Black inventors, knowledge graph game, Three.js 3D graph, Myth or Record, evidence-graded trivia, Cited Photo Archive, CTL-MEDUSA, Medusa photo archive, 63rd Street Chicago, White City amusement park, Trianon Ballroom, John H. White photographer, Black technology, U.S. patents Black inventors, Lonnie Johnson Super Soaker, Garrett Morgan, Madam C.J. Walker, Shirley Ann Jackson, African diaspora game, Black culture game show, media literacy game, Chicago Black history">
+<meta name="author" content="CultureTechLens NFP">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://culturetechlens-cpu.github.io/prove-it-3d-graph-game/">
+<meta name="theme-color" content="#16150F">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://culturetechlens-cpu.github.io/prove-it-3d-graph-game/">
+<meta property="og:site_name" content="CultureTechLens">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/280595908?v=4">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Prove It! — The CultureTechLens Game · 3D Graph">
+<meta name="twitter:description" content="An Afro-American / African diaspora game in a 3D knowledge graph. Don't just know it. Prove it. Every claim graded, every source named.">
+<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/280595908?v=4">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"VideoGame","name":"Prove It! — The CultureTechLens Game (3D Graph)","alternateName":"Prove It! 3D Graph Game","url":"https://culturetechlens-cpu.github.io/prove-it-3d-graph-game/","description":"An Afro-American and African diaspora game played inside a Three.js 3D knowledge graph. Every card is answered with its published evidence grade and source: Myth or Record? patent claims from Black Technology (CTL-DR-TECH-001), Photo Cards from the Cited Photo Archive / CTL-MEDUSA register (63rd Street, CTL-DR-PLACE-001), and Story Check bonus cards. Don't just know it. Prove it.","genre":["Educational game","Trivia game","History game"],"gamePlatform":"Web browser","applicationCategory":"Game","operatingSystem":"Any (web)","isAccessibleForFree":true,"inLanguage":"en","author":{"@type":"Organization","name":"CultureTechLens NFP","url":"https://culturetechlens.com","slogan":"Culture, Clearly Seen."},"publisher":{"@type":"Organization","name":"CultureTechLens NFP","url":"https://culturetechlens.com"},"about":[{"@type":"Thing","name":"Black inventors and U.S. patent history"},{"@type":"Thing","name":"63rd Street, Chicago — White City amusement park, Trianon Ballroom"},{"@type":"Thing","name":"CTL-MEDUSA Cited Photo Archive register"},{"@type":"Thing","name":"Evidence grading and media literacy"}]},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is Prove It! by CultureTechLens?","acceptedAnswer":{"@type":"Answer","text":"Prove It! is a free browser game by CultureTechLens NFP, a Chicago 501(c)(3) Black cultural intelligence archive. Players fly through a 3D knowledge graph and answer cards drawn from published CultureTechLens research; every answer is revealed with its evidence grade and its source. Its tagline is: Don't just know it. Prove it."}},
+{"@type":"Question","name":"How do you play Prove It! in the 3D graph?","acceptedAnswer":{"@type":"Answer","text":"Open the game, drag to orbit the 3D graph, and click a node (or its name in the list). Gold Patent Edition nodes ask Myth or Record? — call the claim, then read the patent receipt. Sky-blue Photo Card nodes ask a multiple-choice question about a Cited Photo Archive photograph from 63rd Street, Chicago. Paper Story Check nodes are bonus-only. A full game is 21 cards for up to 1,950 points."}},
+{"@type":"Question","name":"What are the evidence grades in Prove It!?","acceptedAnswer":{"@type":"Answer","text":"CultureTechLens grades claims VERIFIED, SUPPORTED, PROVISIONAL, DISPUTED, UNRESOLVED, REFUTED, or UNVERIFIABLE, and never upgrades a grade for presentation. In Prove It!, Patent Edition verdicts are stamped FALSE, EXAGGERATED, CONFIRMED, or MYTH exactly as published in Black Technology (CTL-DR-TECH-001)."}},
+{"@type":"Question","name":"What is CTL-MEDUSA?","acceptedAnswer":{"@type":"Answer","text":"CTL-MEDUSA is the register prefix of the CultureTechLens Cited Photo Archive. Photo Cards in Prove It! carry CTL-MEDUSA register IDs — for example CTL-MEDUSA-CHI-000001-001 (White City construction, c. 1905) and CTL-MEDUSA-CHI-000001-003 (Trianon Ballroom, 1924) — and every photograph used is Public Domain."}},
+{"@type":"Question","name":"Who are the Black inventors in the Prove It! Patent Edition?","acceptedAnswer":{"@type":"Answer","text":"The 13 Patent Edition cards cover Shirley Ann Jackson, Lonnie Johnson (Super Soaker, U.S. Patent 4,591,071), Garrett Morgan (traffic signal and safety hood), George Washington Carver, Philip Emeagwali, Elijah McCoy, Lewis Latimer, Madam C.J. Walker, Benjamin Banneker, Otis Boykin, Granville Woods, and Henry Sampson — each with the patent record or published verdict as its receipt."}}]}
+]}
+</script>
+
 <style>
 :root{--ink:#16150F;--paper:#F7F2E7;--gold:#C9A227;--gold-dark:#AC8511;--red:#B3282D}
 *{box-sizing:border-box} body{margin:0;background:var(--ink);color:var(--paper);font-family:system-ui,-apple-system,Segoe UI,sans-serif;overflow:hidden}
@@ -78,6 +103,26 @@ a{color:var(--gold)} @media(max-width:820px){#help{left:8px;right:8px;top:84px;w
     <p id="sourceLine"></p>
     <p id="points"></p>
   </div>
+</section>
+
+
+<section id="aboutGame" class="panel" style="left:14px;bottom:64px;top:auto;width:300px;max-height:30vh;overflow:auto">
+  <details>
+    <summary style="font-family:Georgia,serif;font-weight:700;cursor:pointer">About Prove It! — FAQ &amp; card index</summary>
+    <h2>What is Prove It!?</h2>
+    <p>Prove It! is a free Afro-American and African diaspora game by <strong>CultureTechLens NFP</strong>, a Chicago 501(c)(3) Black cultural intelligence archive. You play inside a Three.js 3D knowledge graph: click a node, answer the card, and read the receipt — every answer carries its published evidence grade and source. <em>Don't just know it. Prove it.</em></p>
+    <h2>How do you play?</h2>
+    <p>Gold <strong>Patent Edition</strong> nodes ask <strong>Myth or Record?</strong> — call the claim about a Black inventor, then check the U.S. patent record. Sky-blue <strong>Photo Card</strong> nodes ask multiple-choice questions about Cited Photo Archive photographs of 63rd Street, Chicago (White City amusement park, the Trianon Ballroom, John H. White's 1973 EPA photographs). Paper <strong>Story Check</strong> nodes are bonus-only. 21 cards, up to 1,950 points.</p>
+    <h2>What are the evidence grades?</h2>
+    <p>CultureTechLens grades claims VERIFIED · SUPPORTED · PROVISIONAL · DISPUTED · UNRESOLVED · REFUTED · UNVERIFIABLE — never upgraded for presentation. Patent verdicts are stamped FALSE / EXAGGERATED / CONFIRMED / MYTH exactly as published.</p>
+    <h2>What is CTL-MEDUSA?</h2>
+    <p>CTL-MEDUSA is the register prefix of the CultureTechLens Cited Photo Archive. Photo Cards carry register IDs such as CTL-MEDUSA-CHI-000001-001 (White City construction, c. 1905), CTL-MEDUSA-CHI-000001-002 (White City at night, 1916), CTL-MEDUSA-CHI-000001-003 (Trianon Ballroom, 1924) and CTL-MEDUSA-CHI-000001-005 (63rd Street, July 1973). All photographs are Public Domain; the game links to the archive instead of republishing them.</p>
+    <h2>Card index (21 cards)</h2>
+    <p><strong>Patent Edition — Black Technology (CTL-DR-TECH-001, DOI 10.5281/zenodo.23173961):</strong> Shirley Ann Jackson · Lonnie Johnson (Super Soaker, U.S. Patent 4,591,071) · Garrett Morgan — Traffic Signal · Garrett Morgan — Safety Hood · George Washington Carver · Philip Emeagwali · Elijah McCoy · Lewis Latimer · Madam C.J. Walker · Benjamin Banneker · Otis Boykin · Granville Woods · Henry Sampson.</p>
+    <p><strong>Photo Card — 63rd Street (CTL-DR-PLACE-001, DOI 10.5281/zenodo.23353793):</strong> White City — Construction, c. 1905 · White City at Night, 1916 · The Trianon Ballroom, 1924 · Bus Riders on 63rd Street, 1973 (John H. White, EPA DOCUMERICA) · 63rd Street, July 1973 · Whose Camera? — 63rd Street, 1973.</p>
+    <p><strong>Story Check (bonus):</strong> The Golden Age (not yet verified) · The Sears Date (disputed).</p>
+    <p>More from CultureTechLens: <a href="https://culturetechlens.com/research/black-technology/">Black Technology research</a> · <a href="https://culturetechlens.com/research/63rd-street/">63rd Street research</a> · <a href="https://github.com/culturetechlens-cpu/prove-it-3d-graph-game">Game source code on GitHub</a></p>
+  </details>
 </section>
 
 <div id="final" hidden>
