@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you play, build on, or write about this game, please cite it as below."
+type: software
+title: "Prove It! — The CultureTechLens Game (3D Graph)"
+authors:
+  - family-names: Maxey
+    given-names: William
+    orcid: "https://orcid.org/0009-0004-2837-8037"
+    affiliation: "CultureTechLens NFP"
+  - name: "CultureTechLens NFP"
+repository-code: "https://github.com/culturetechlens/prove-it-3d-graph-game"
+url: "https://culturetechlens.github.io/prove-it-3d-graph-game/"
+version: "0.1.0"
+license: MIT
+keywords:
+  - black-cultural-intelligence
+  - knowledge-graph
+  - game
+  - three-js
+  - chicago
+  - digital-humanities
+notes: "An Afro-American game inside the CultureTechLens Black Cultural Knowledge Graph: Don't just know it. Prove it. The graph dataset it plays on is cited separately — concept DOI 10.5281/zenodo.23403147 (CultureTechLens Black Cultural Knowledge Graph)."

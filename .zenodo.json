@@ -1,0 +1,25 @@
+{
+  "title": "Prove It! — The CultureTechLens Game (3D Graph)",
+  "upload_type": "software",
+  "description": "Prove It! — The CultureTechLens Game. An Afro-American game in a Three.js 3D knowledge graph, built on the CultureTechLens Black Cultural Knowledge Graph. Don't just know it. Prove it. Culture, Clearly Seen. Black Cultural Intelligence.",
+  "creators": [
+    {
+      "name": "Maxey, William",
+      "affiliation": "CultureTechLens NFP",
+      "orcid": "0009-0004-2837-8037"
+    },
+    {
+      "name": "CultureTechLens NFP"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "black-cultural-intelligence",
+    "knowledge-graph",
+    "game",
+    "three-js",
+    "chicago",
+    "digital-humanities"
+  ]
+}
